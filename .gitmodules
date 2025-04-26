@@ -1,0 +1,3 @@
+[submodule "firmware/HQ/firmware/HQ/lib/EloquentEsp32cam"]
+	path = firmware/HQ/firmware/HQ/lib/EloquentEsp32cam
+	url = https://github.com/eloquentarduino/EloquentEsp32cam
