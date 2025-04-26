@@ -9,12 +9,13 @@ void setup() {
 }
 
 void loop() {
-    delay(50);
-    for (int i = 0; i < 180; i++) {
+    for (int i = 0; i < 90; i++) {
         servo.write(i);
+        delay(50);
     }
-    for (int i = 180; i > 0; i--) {
+    for (int i = 90; i > 0; i--) {
         servo.write(i);
+        delay(50);
     }
     
     
